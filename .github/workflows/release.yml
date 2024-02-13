@@ -105,7 +105,7 @@ jobs:
           body: |
             For changes, see here: https://github.com/babylonchain/babylon/releases/tag/${{ env.BABYLON_VERSION }}
           files: |
-            binaries/dymd
+            binaries/babylond
           tag_name: "${{ env.BABYLON_VERSION }}"
           draft: false
           prerelease: false
